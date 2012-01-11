@@ -160,7 +160,7 @@ INITIAL {
 }
 
 BREAKPOINT {
-	SOLVE state METHOD euler
+	SOLVE state METHOD derivimplicit
 }
 
 LOCAL bfc , kfv
