@@ -120,3 +120,4 @@ http://cns.iaf.cnrs-gif.fr
 gabab.mod (GABAb) release.mod (rel) mechanisms from euler method to
 cnexp, and derivimplicit for rel as per
 http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592
+20150608 GABAb.mod was fixed from cnexp to derivimplicit

@@ -68,7 +68,7 @@ if(ismenu==0) {
 //  general parameters
 //----------------------------------------------------------------------------
 
-dt=0.01
+dt=0.025 // ModelDB administrator converges GABAb simple: rather than 0.01
 tstop = 20
 runStopAt = tstop
 steps_per_ms = 1/dt

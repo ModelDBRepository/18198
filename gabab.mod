@@ -163,7 +163,7 @@ INITIAL {
 }
 
 BREAKPOINT {
-	SOLVE bindkin METHOD cnexp
+	SOLVE bindkin METHOD derivimplicit
 	Gn = G^n
 	g = gmax * Gn / (Gn+KD)
 	i = g*(v - Erev)
