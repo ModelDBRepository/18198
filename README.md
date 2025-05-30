@@ -3,13 +3,13 @@
 
 ### Alain Destexhe
 
-Department of Physiology, Laval University,
+Department of Physiology, Laval University,  
 Quebec G1K 7P4, Canada
 
-Present address: CNRS, UNIC (Bat-33), Avenue de la Terrasse,
+Present address: CNRS, UNIC (Bat-33), Avenue de la Terrasse,  
 91198 Gif-sur-Yvette, France
 
-Destexhe@iaf.cnrs-gif.fr
+Destexhe@iaf.cnrs-gif.fr  
 http://cns.iaf.cnrs-gif.fr
 
 This package is running with the NEURON simulation program written by Michael Hines and available on internet at:
@@ -19,7 +19,7 @@ The package contains mechanisms (.mod files) and programs (.oc files) needed to 
 
 The models given here are described in detail in the following paper:
 
-Destexhe, A., Mainen, Z.F. and Sejnowski, T.J.
+Destexhe, A., Mainen, Z.F. and Sejnowski, T.J.  
 Biophysical models of synaptic transmission. In: *Methods in Neuronal Modeling* (2nd edition; edited by Koch, C. and Segev, I.), MIT press, Cambridge, 1998, pp. 1-25.
 
 An electronic version of this paper is available at [http://cns.iaf.cnrs-gif.fr](http://cns.iaf.cnrs-gif.fr)
@@ -65,27 +65,27 @@ nrngui rundemo.hoc
 
 Once the menu and graphics interface has appeared, click on "Init and Run" button to start the simulation...
 
-For more information about how to get NEURON and how to install it, please refer to the following sites:
-- [http://neuron.duke.edu/](http://neuron.duke.edu/)
+For more information about how to get NEURON and how to install it, please refer to the following sites:  
+- [http://neuron.duke.edu/](http://neuron.duke.edu/)  
 - [http://www.neuron.yale.edu/](http://www.neuron.yale.edu/)
 
 For further information, please contact:
 
-Alain Destexhe
-CNRS, UNIC (Bat-33),
-Avenue de la Terrasse,
-91198 Gif-sur-Yvette,
+Alain Destexhe  
+CNRS, UNIC (Bat-33),  
+Avenue de la Terrasse,  
+91198 Gif-sur-Yvette,  
 France
 
-email: Destexhe@iaf.cnrs-gif.fr
+email: Destexhe@iaf.cnrs-gif.fr  
 http://cns.iaf.cnrs-gif.fr
 
 ---
-
+## Changelog
 10-2007: AD, better synaptic mechanisms using counters
-20120111: removed some .old files and updated gabab3.mod (GABAb3), gabab.mod (GABAb) release.mod (rel) mechanisms from euler method to cnexp, and derivimplicit for rel as per [http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592](http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592)
-20150608 GABAb.mod was fixed from cnexp to derivimplicit
 
----
+01-11-2012: removed some .old files and updated gabab3.mod (GABAb3), gabab.mod (GABAb) release.mod (rel) mechanisms from euler method to cnexp, and derivimplicit for rel as per [http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592](http://www.neuron.yale.edu/phpbb/viewtopic.php?f=28&t=592)
 
-2025-05-27 – Standardized to Markdown
+06-08-2015: GABAb.mod was fixed from cnexp to derivimplicit
+
+27-05-2025: Standardized to Markdown
